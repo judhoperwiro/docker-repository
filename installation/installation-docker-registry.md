@@ -44,6 +44,7 @@ Password : D3vadm
 ​
 ### nonprdregistry.myp.local:5443 cert
 ​
+```
 -----BEGIN CERTIFICATE-----
 MIIDJDCCAgwCCQDzr8jKo8WROzANBgkqhkiG9w0BAQsFADASMRAwDgYDVQQDDAdD
 bG91ZE9QMCAXDTE5MDgxNjAzNDEwMFoYDzIxMTkwNzIzMDM0MTAwWjCBkzELMAkG
@@ -63,9 +64,12 @@ ANdUKx3a+ziLONYrtzlcv9mQaMN19vLW1sXkL35kXbj6t+5gvrkdKCWaO70PbTH4
 9yZMn6aoj7dYylsov0ijwQ9kh64CyZynxonEiZJ+ES0lfW9dqI0HzVX8OS8uyObX
 S9FzFnWxehc+9HF3map1qoepwWTboEgDWIkE6NWKVPz5rQw0LENhwQ==
 -----END CERTIFICATE-----
+```
 ​
+
 ### mmdevpr.tnis.com:5443 cert
 ​
+```
 -----BEGIN CERTIFICATE-----
 MIIDXTCCAkWgAwIBAgIJAL6QVUpzFjjlMA0GCSqGSIb3DQEBCwUAMEUxCzAJBgNV
 BAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBX
@@ -87,11 +91,13 @@ zK0dgUpZBPFZy/P80LNzenibWC03zjZnHQq1m887DRPoc1WS5TVb/d9QaSWirdP2
 ZK28WiQvXpvAv+Da2+7I+z2A5HGHiUFooSxX5zDl1SP9VW6BXV1T4IIw8bTaBYJn
 Ww==
 -----END CERTIFICATE-----
+```
 ​
 ### cloudop cert
 ​
 vi /etc/pki/ca-trust/source/anchors/cloudop.crt
 ​
+```
 -----BEGIN CERTIFICATE-----
 MIICojCCAYoCCQCaPl+gZIJVrTANBgkqhkiG9w0BAQsFADASMRAwDgYDVQQDDAdD
 bG91ZE9QMCAXDTE4MDIxNDA2NTU0OFoYDzIxMTgwMTIxMDY1NTQ4WjASMRAwDgYD
@@ -110,6 +116,7 @@ cr83gEDWMofXLQWj+r1xj3YSq2ubUbehBpnvCyrwiTM35/Nzb1CQoCjewXaWNDJY
 Xn8HOrNG
 -----END CERTIFICATE-----
 ​
+```
 ## Push images
 ​
 ```bash
