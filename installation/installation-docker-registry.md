@@ -1,6 +1,6 @@
-# Setup CA for private registry on MyMo Cloud
+# Setup CA for private registry 
 ​
-## UBUNTU
+## Rhel 7
 1. create cert
 ```bash
 sudo mkdir -p /usr/local/share/ca-certificates/docker-cert
@@ -131,7 +131,4 @@ docker tag mmdevpr.tnis.com:5443/tnindo/datahubconsumer:0.9 nonprdregistry.myp.l
 docker push nonprdregistry.myp.local:5443/tnindo/datahubconsumer:0.9
 ```
 ​
-## access vm
-10.82.19.235
-username : ubuntu
-password : ubuntu
+
