@@ -19,7 +19,7 @@ docker load -i registry.img
 docker images
 ```
 
-### 4.) Create docker certificate
+### 2.) Create docker certificate
 user: root
 
 ```
